@@ -1,4 +1,4 @@
-// url: http://localhost:3000/api/posts/12345
+// url: https://mouneh-dash.netlify.app/api/posts/12345
 import prisma from "../../../libs/prismadb";
 import { NextResponse } from "next/server";
 
