@@ -1,6 +1,8 @@
 //prisma/index.ts
 import { PrismaClient } from "@prisma/client";
 
+export const dynamic = "force-dynamic";
+
 let prisma: PrismaClient;
 declare global {
   namespace NodeJS {
